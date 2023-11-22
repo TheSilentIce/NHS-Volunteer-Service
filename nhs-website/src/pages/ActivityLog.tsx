@@ -28,7 +28,6 @@ export function ActivityLog() {
 									name="First Name"
 									id="firstName"
 									type="name"
-									placeholder=""
 								/>
 							</div>
 							<div className="col">
@@ -36,7 +35,6 @@ export function ActivityLog() {
 									name="Last Name"
 									id="lastName"
 									type="name"
-									placeholder=""
 								/>
 							</div>
 						</div>
@@ -47,6 +45,7 @@ export function ActivityLog() {
 									id="email"
 									type="email"
 									placeholder="example@mail.com"
+									autocomplete="email"
 								/>
 								<SelectMenu
 									name="Grade"

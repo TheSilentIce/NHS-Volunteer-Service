@@ -11,6 +11,7 @@ function LongAnswerInput(properties: InputProps) {
 				{properties.name}
 			</label>
 			<textarea
+				id={properties.id}
 				className="form-control"
 				placeholder={properties.placeholder}
 			/>

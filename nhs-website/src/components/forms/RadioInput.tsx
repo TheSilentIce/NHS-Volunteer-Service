@@ -16,7 +16,10 @@ function RadioInput(properties: RadioInputProps) {
 						name="id"
 						id={properties.id + index}
 					/>
-					<label className="form-check-label" htmlFor={properties.id}>
+					<label
+						className="form-check-label"
+						htmlFor={properties.id + index}
+					>
 						{optionValue}
 					</label>
 				</div>

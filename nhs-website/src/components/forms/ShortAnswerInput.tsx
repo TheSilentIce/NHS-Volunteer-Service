@@ -2,7 +2,8 @@ interface InputProps {
 	name: string;
 	id: string;
 	type: string;
-	placeholder: string;
+	placeholder?: string;
+	autocomplete?: string;
 }
 
 function ShortAnswerInput(properties: InputProps) {
@@ -14,8 +15,10 @@ function ShortAnswerInput(properties: InputProps) {
 			</label>
 			<input
 				type={properties.type}
+				id={properties.id}
 				className="form-control"
 				placeholder={properties.placeholder}
+				autoComplete={properties.autocomplete}
 			/>
 		</div>
 	);
