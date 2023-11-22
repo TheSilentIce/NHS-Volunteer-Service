@@ -1,4 +1,5 @@
 import FileUpload from "../components/forms/FileUpload";
+import LongAnswerInput from "../components/forms/LongAnswerInput";
 import SelectMenu from "../components/forms/SelectMenu";
 import ShortAnswerInput from "../components/forms/ShortAnswerInput";
 
@@ -49,6 +50,13 @@ export function ActivityLog() {
 							<div className="col">
 								<FileUpload name="Evidence" />
 							</div>
+						</div>
+						<div className="row">
+							<LongAnswerInput
+								name={"Description"}
+								id={"description"}
+								placeholder={""}
+							/>
 						</div>
 					</div>
 				</form>
