@@ -1,5 +1,6 @@
 import FileUpload from "../components/forms/FileUpload";
 import LongAnswerInput from "../components/forms/LongAnswerInput";
+import RadioInput from "../components/forms/RadioInput";
 import SelectMenu from "../components/forms/SelectMenu";
 import ShortAnswerInput from "../components/forms/ShortAnswerInput";
 
@@ -64,6 +65,13 @@ export function ActivityLog() {
 								name={"Description"}
 								id={"description"}
 								placeholder={""}
+							/>
+						</div>
+						<div className="row">
+							<RadioInput
+								name="Was this an NHS event?"
+								id="isVolunteer"
+								options={["Yes", "No"]}
 							/>
 						</div>
 					</div>
