@@ -14,6 +14,14 @@ export function ActivityLog() {
 				<form>
 					<div className="container-fluid">
 						<div className="row">
+							<ShortAnswerInput
+								name="Hours"
+								id="hours"
+								type="input"
+								placeholder="0.0"
+							/>
+						</div>
+						<div className="row">
 							<div className="col">
 								<ShortAnswerInput
 									name="First Name"
