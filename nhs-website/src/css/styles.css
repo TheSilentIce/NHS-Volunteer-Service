@@ -1,0 +1,7 @@
+body {
+    padding-top: 5rem;
+}
+
+.navbar {
+    transition: 200ms;
+}
