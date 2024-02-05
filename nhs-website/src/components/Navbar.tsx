@@ -18,14 +18,14 @@ function Navbar() {
 	
 	return (
 		<>
-		<nav className={" navbar navbar-expand-lg fixed-top " + (scrolled ? 'bg-dark navbar-dark' : 'bg-transparent navbar-light')}>
+		<nav className={" navbar navbar-expand-lg fixed-top " + (scrolled ? 'bg-light navbar-light navbar-scrolled' : 'bg-transparent navbar-dark')}>
 			<div className="container-fluid">
-				<Link to="/" className="navbar-brand fs-4">
+				<Link to="/" className="navbar-brand fw-bold fs-3 mx-3">
 					{/*<img src="/nhs_logo.svg" width="80rem" alt="NHS" /> */}
 					NHS SERVICE
 				</Link>
 
-				<ul className="navbar-nav m-3">
+				<ul className={"navbar-nav " + (scrolled ? 'm-2' : 'm-4')}>
 					<li className="nav-item mx-3">
 						<Link to="/" className="nav-link">
 							HOME
@@ -51,11 +51,15 @@ function Navbar() {
 							CONTACT
 						</Link>
 					</li>
+					<li className="nav-item mx-3">
+						<Link to="login" className="nav-link">
+							LOGIN
+						</Link>
+					</li>
 				</ul>
 			</div>
 		</nav>
 		</>
-		
 	);
 }
 

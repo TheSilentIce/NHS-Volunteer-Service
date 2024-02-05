@@ -1,3 +1,8 @@
 export function Home() {
-	return <h1>Home</h1>;
+	return (
+		<>
+			<div className="bg-image-full" id="bg"/>
+			<h1>Home</h1>
+		</>
+	);
 }

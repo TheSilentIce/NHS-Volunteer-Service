@@ -5,3 +5,41 @@ body {
 .navbar {
     transition: 200ms;
 }
+
+.navbar-brand {
+    transition: 200ms;
+}
+
+.navbar-brand:hover {
+    color: lightgray;
+}
+
+.navbar-nav {
+    transition: 200ms;
+}
+
+.navbar-scrolled {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bg-image-full {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://hillcrestnhsservice.weebly.com/uploads/8/0/5/3/80530808/background-images/1389374582.png");
+    background-position: center;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+}
+
+.bg-image-partial {
+    width: 100%;
+    height: 20vh;
+    background-image: url("https://hillcrestnhsservice.weebly.com/uploads/8/0/5/3/80530808/background-images/1389374582.png");
+    background-position: center;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+}

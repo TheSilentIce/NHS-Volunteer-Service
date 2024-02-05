@@ -8,7 +8,7 @@ interface InputProps {
 
 function ShortAnswerInput(properties: InputProps) {
 	return (
-		<div className="form-group pt-2">
+		<div className="mb-3 pt-2">
 			<label htmlFor={properties.id} className="form-label">
 				{" "}
 				{properties.name}{" "}

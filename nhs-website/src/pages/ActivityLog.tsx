@@ -7,20 +7,22 @@ import ShortAnswerInput from "../components/forms/ShortAnswerInput";
 export function ActivityLog() {
 	return (
 		<>
-			<div className="header-container container">
-				<h1>Activity Log</h1>
-			</div>
-
-			<div className="container">
+			<div className="bg-image-partial" id="bg" />
+			<div className="container py-5">
+				<div className="header-container container text-center pt-5">
+					<h1>Activity Log</h1>
+				</div>
 				<form>
 					<div className="container-fluid">
 						<div className="row">
-							<ShortAnswerInput
-								name="Hours"
-								id="hours"
-								type="input"
-								placeholder="0.0"
-							/>
+							<div className="col">
+								<ShortAnswerInput
+									name="Hours"
+									id="hours"
+									type="input"
+									placeholder="0.0"
+								/>
+							</div>
 						</div>
 						<div className="row">
 							<div className="col">
