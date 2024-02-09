@@ -6,7 +6,7 @@ interface RadioInputProps {
 
 function RadioInput(properties: RadioInputProps) {
 	return (
-		<div className="pt-2">
+		<div className="">
 			{properties.name}
 			{properties.options.map((optionValue, index) => (
 				<div className="form-check" key={index}>

@@ -6,7 +6,7 @@ interface InputProps {
 
 function LongAnswerInput(properties: InputProps) {
 	return (
-		<div className="form-group pt-2">
+		<div className="form-group">
 			<label htmlFor={properties.id} className="form-label">
 				{properties.name}
 			</label>

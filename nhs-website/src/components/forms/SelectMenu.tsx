@@ -6,7 +6,7 @@ interface SelectMenuProps {
 
 function SelectMenu(properties: SelectMenuProps) {
 	return (
-		<div className="form-group pt-2">
+		<div className="form-group">
 			<label htmlFor={properties.id}>{properties.name}</label>
 			<select className="form-control" id={properties.id}>
 				{properties.options.map((optionValue, index) => (

@@ -4,7 +4,7 @@ interface FileUploadProps {
 
 function FileUpload(properties: FileUploadProps) {
 	return (
-		<div className="pt-2">
+		<div className="">
 			<label htmlFor="formFileMultiple" className="form-label">
 				{properties.name}
 			</label>
